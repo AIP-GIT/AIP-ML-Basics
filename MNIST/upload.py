@@ -3,7 +3,7 @@ from PIL import Image
 from classify import predict
 
 
-st.title("Upload + Classification Example")
+st.title("Upload + Classification Example ")
 
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 if uploaded_file is not None:
